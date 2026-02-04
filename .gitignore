@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+# Flask
+instance/
+
+# JetBrains Rider / IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
