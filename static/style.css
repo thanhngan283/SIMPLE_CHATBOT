@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    background: #f0f0f0;
+}
+
+.chatbox {
+    width: 400px;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+}
+
+.response {
+    margin-top: 15px;
+    background: #e3f2fd;
+    padding: 10px;
+    border-radius: 5px;
+}

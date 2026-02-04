@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="chatbox">
+    <h2>🤖 Simple Chatbot</h2>
+    <form method="post">
+        <input type="text" name="message" placeholder="Type your message..." required>
+        <button type="submit">Send</button>
+    </form>
+
+    {% if response %}
+    <div class="response">
+        <strong>Bot:</strong> {{ response }}
+    </div>
+    {% endif %}
+</div>
+</body>
+</html>
